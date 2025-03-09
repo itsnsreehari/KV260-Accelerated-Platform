@@ -65,7 +65,7 @@ Once quantized and compiled, the model is deployed on the KV260 and run using th
 
 | Model Variant  | Precision | FPS (KV260) | Accuracy Drop |
 |---------------|-----------|-------------|---------------|
-| YOLOv5 Nano  | INT8      | 39.2 FPS      | ~1%           |
+| YOLOv5 Nano  | INT8      | 59.2 FPS      | ~1%           |
 | YOLOv5 Large | INT8      | 17.6 FPS    | ~1.5%         |
 
 Quantization enables a significant speedup with minimal accuracy loss.
