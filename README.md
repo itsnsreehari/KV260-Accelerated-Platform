@@ -101,7 +101,7 @@ python gpt2_inference.py --text "The future of AI is..."
 
 | Model Variant | Precision | FPS (KV260) | Inference Time |
 |----------------|------------|---------------|----------------|
-| YOLOv5 Nano      | INT8       | 61 FPS          | 0.1268 sec      |
+| YOLOv5 Nano      | INT8       | 59.2 FPS          | 0.1268 sec      |
 | YOLOv5 Large     | INT8       | 17.6 FPS        | 7.6 FPS (video) |
 | Transformer      | Optimized  | DPU Offloaded   | -               |
 | GPT-2            | Optimized  | DPU Accelerated  | -               |
